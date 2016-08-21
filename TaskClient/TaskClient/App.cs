@@ -17,13 +17,13 @@ namespace TaskClient
         public static PublicClientApplication PCApplication { get; set;  }
 
         // app coordinates
-		public static string ClientID = "90c0fe63-bcf2-44d5-8fb7-b8bbc0b29dc6";
+		public static string ClientID = "6c60b73a-ce45-4734-9865-1af48cab57e4";
         public static string[] Scopes = { ClientID };
         
         
-		public static string SignUpSignInpolicy = "b2c_1_susi";        
-        public static string ResetPasswordpolicy = "b2c_1_reset";        
-        public static string Authority = "https://login.microsoftonline.com/fabrikamb2c.onmicrosoft.com/";
+		public static string SignUpSignInpolicy = "B2C_1_SignupSignin";
+        public static string ResetPasswordpolicy = "B2C_1_Reset";
+        public static string Authority = "https://login.microsoftonline.com/smaad.onmicrosoft.com/";
         public static string APIbaseURL = "https://aadb2cplayground.azurewebsites.net";
 
         public App()
